@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.CintiaController">
+   <children>
+      <BorderPane layoutX="7.0" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="166.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/femalevectornew.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_cintiaback" layoutX="355.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_cintiabackButtonAction" text="Back?" />
+      <TextArea layoutX="7.0" layoutY="200.0" prefHeight="200.0" prefWidth="214.0" text="Ciri - Ciri :&#10;- Rambut Pendek se- Bahu&#10;-Tanda Lahir di Kaki Kiri&#10;-Tinggi Kisaran 155-165&#10;-Bola Mata Coklat&#10;-Memiliki Tahi Lalat di Dekat Hidung&#10;&#10;Terakhir Terlihat : Pukul 12 Siang, &#10;Memakai Sweater Bercorak &#10;Di Lampu Merah Dago" />
+      <Text layoutX="226.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Cintia  Dedjawa" />
+      <Text layoutX="226.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR :  32" />
+      <Text layoutX="226.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : WANITA" />
+   </children>
+</AnchorPane>

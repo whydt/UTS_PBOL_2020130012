@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="627.0" prefWidth="629.0" style="-fx-background-color: #e0ffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.FXMLDocumentController">
+   <children>
+      <TableView fx:id="table" layoutY="206.0" prefHeight="420.0" prefWidth="497.0" style="-fx-background-color: #87ceeb;">
+        <columns>
+          <TableColumn fx:id="col_nama" prefWidth="183.0" text="Nama" />
+          <TableColumn fx:id="col_umur" prefWidth="79.0" text="Umur" />
+            <TableColumn fx:id="col_gender" prefWidth="330.0" text="Gender" />
+        </columns>
+      </TableView>
+      <BorderPane layoutX="170.0" prefHeight="205.0" prefWidth="289.0">
+         <center>
+            <TextField BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Looking for someone?" textAlignment="CENTER" wrappingWidth="274.1484375" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="24.0" />
+               </font>
+            </Text>
+         </top>
+         <left>
+            <ImageView fitHeight="70.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/vectormanglaass.png" />
+               </image>
+            </ImageView>
+         </left>
+      </BorderPane>
+      <BorderPane prefHeight="149.0" prefWidth="155.0">
+         <top>
+            <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="WeFound" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Futura Md BT Bold" size="31.0" />
+               </font>
+            </Text>
+         </top>
+         <center>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="?" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Freehand521 BT" size="87.0" />
+               </font>
+            </Text>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_detailokta" layoutX="505.0" layoutY="237.0" mnemonicParsing="false" onAction="#oktadetailButtonAction" onMouseClicked="#oktadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailhusrul" layoutX="505.0" layoutY="277.0" mnemonicParsing="false" onAction="#husruldetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detaillucy" layoutX="505.0" layoutY="314.0" mnemonicParsing="false" onAction="#lucydetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailgun" layoutX="505.0" layoutY="352.0" mnemonicParsing="false" onAction="#guntamadetailButtonAction" onMouseClicked="#guntamadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailsiti" layoutX="505.0" layoutY="391.0" mnemonicParsing="false" onAction="#sitidetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailviona" layoutX="505.0" layoutY="430.0" mnemonicParsing="false" onAction="#vionadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailprima" layoutX="505.0" layoutY="467.0" mnemonicParsing="false" onAction="#primadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailcintia" layoutX="505.0" layoutY="503.0" mnemonicParsing="false" onAction="#cintiadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailusama" layoutX="505.0" layoutY="539.0" mnemonicParsing="false" onAction="#usamadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+      <Button fx:id="btn_detailbunga" layoutX="505.0" layoutY="574.0" mnemonicParsing="false" onAction="#bungadetailButtonAction" prefHeight="10.0" prefWidth="83.0" text="Detail" />
+   </children>
+</AnchorPane>

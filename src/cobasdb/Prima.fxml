@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.PrimaController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="157.0" fitWidth="207.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/malevector.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_primaback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_primabackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Prima Kasih" />
+      <Text layoutX="207.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 20" />
+      <Text layoutX="207.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Pria" />
+      <TextArea layoutX="7.0" layoutY="200.0" prefHeight="200.0" prefWidth="241.0" text="Ciri - Ciri :&#10;-Memiliki Tanda Lahir Pada Betis Kanan&#10;-Bola Mata Hitam&#10;-Tinggi Kisaran 175-180&#10;-Rambut Berwarna Merah Pekat&#10;-Tidak Memiliki Tahi Lalat&#10;&#10;Terakhir Terlihat : Memakai Baju Renang&#10;Bermain di Pantai Pasir Putih" />
+   </children>
+</AnchorPane>

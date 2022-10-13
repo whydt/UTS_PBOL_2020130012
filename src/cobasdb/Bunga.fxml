@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.BungaController">
+   <children>
+      <BorderPane layoutX="7.0" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="164.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/femalevectornew.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_bungaback" layoutX="473.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_bungabackButtonAction" text="Back?" />
+      <Text layoutX="220.0" layoutY="71.0" stroke="#070707" strokeType="INSIDE" strokeWidth="10.0" text="NAMA : " />
+      <Text layoutX="220.0" layoutY="105.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR  : " />
+      <Text layoutX="220.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER :" />
+      <TextArea layoutX="7.0" layoutY="200.0" prefHeight="200.0" prefWidth="274.0" text="Ciri - Ciri :&#10;-Rambut Hitam Pekat&#10;-Tinggi Kisaran 160-165&#10;-Memiliki Tanda Lahir di Tangan Kiri&#10;-Bola Mata Berwarna Coklat&#10;&#10;&#10;Terakhir Terlihat : Sabtu Tanggal 10 September &#10;Terlihat Memakai Baju Merah Polos&#10;Di Bundaran HI&#10;&#10;&#10;&#10;&#10;" />
+      <Text layoutX="264.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bunga Harum Sederajat" />
+      <Text layoutX="271.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="22" />
+      <Text layoutX="277.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wanita" />
+      <Text layoutX="10.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="522.53125" />
+   </children>
+</AnchorPane>

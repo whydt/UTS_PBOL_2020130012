@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.UsamaController">
+   <children>
+      <BorderPane layoutX="7.0" layoutY="2.0" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="161.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/malevector.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_usamaback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_usamabackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Usama Fatma Sijaga" />
+      <Text layoutX="207.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 40 " />
+      <Text layoutX="207.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Pria" />
+      <TextArea layoutY="202.0" prefHeight="200.0" prefWidth="200.0" text="Ciri - Ciri &#10;-Tinggi Kisaran 160-175&#10;-Bola Mata Berwarna Coklat&#10;-Tidak Memiliki Tanda Lahir&#10;-Tahi Lalat Pada Tangan Kiri&#10;-Rambut Gondrong (Putih)&#10;&#10;Terakhir Terlihat : Tegalega&#10;Pukul 10 Pagi , Memakai Baju Lari &#10;Dan Topi Navy" />
+   </children>
+</AnchorPane>

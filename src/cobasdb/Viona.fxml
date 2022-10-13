@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.VionaController">
+   <children>
+      <BorderPane layoutX="7.0" layoutY="8.0" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="159.0" fitWidth="157.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/femalevectornew.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_vioback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_viobackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Viona Lukito" />
+      <Text layoutX="207.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 43" />
+      <Text layoutX="207.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Wanita " />
+      <TextArea layoutX="7.0" layoutY="202.0" prefHeight="200.0" prefWidth="200.0" text="Ciri - Ciri :&#10;-Tinggi Kisaran 160-170&#10;-Memiliki Tanda Lahir kaki Kiri&#10;-Bola Mata Hitam&#10;-Rambut Panjang se-Bahu&#10;-Rambut Perwarna Pirang&#10;&#10;Terakhir Terlihat : Lembang &#10;Pukul 1 Sore&#10;Membawa Sepeda &#10;Jacket Pink Hijau" />
+   </children>
+</AnchorPane>

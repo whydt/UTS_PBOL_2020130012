@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.HusrulController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="171.0" fitWidth="203.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../malevector.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_husrulback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_husrulbackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA  : Husrul Fernando" />
+      <Text layoutX="207.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 41" />
+      <Text layoutX="207.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Pria" />
+      <TextArea layoutY="200.0" prefHeight="200.0" prefWidth="200.0" text="Ciri - Ciri :&#10;-Rambut Pirang&#10;-Memiliki Tanda Lahir di Lengan Kiri&#10;-Bola Mata Biru &#10;-Tinggi Kisaran 175-185&#10;-Memiliki Tahi Lalat di Sebelah Mata&#10;&#10;Terakhir Terlihat : Pukul 1 Siang&#10;Membawa Tas Klub Bola&#10;Di daerah Leuwi Panjang" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.OktaController">
+   <children>
+      <BorderPane prefHeight="209.0" prefWidth="213.0">
+         <bottom>
+            <ImageView fitHeight="153.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../malevector.png" />
+               </image>
+            </ImageView>
+         </bottom>
+      </BorderPane>
+      <Button fx:id="btn_oktabck" layoutX="341.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_oktabckButtonAction" text="Back?" />
+      <Text layoutX="213.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Okta Rahamadja" />
+      <Text layoutX="213.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 25" />
+      <Text layoutX="213.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Pria" />
+      <TextArea layoutX="7.0" layoutY="202.0" prefHeight="200.0" prefWidth="224.0" text="Ciri - Ciri :&#10;-Rambut Hitam Bercampur Coklat&#10;-Tinggi Kisaran 165-170&#10;-Bola Mata Coklat &#10;-Memiliiki Tahi Lalat di Bawah Dagu&#10;-Tanda Lahir pada Lengan kiri Bawah&#10;&#10;Terakhir Terlihat : Memakai Baju Biru&#10;Selalu Menunggu di Lampu Merah Jamika&#10;Membawa Gitar." />
+   </children>
+</AnchorPane>

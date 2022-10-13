@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.GuntumaController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="159.0" fitWidth="209.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/malevector.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_gunback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_gunbackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Guntuma Widojoja" />
+      <Text layoutX="207.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUR : 71" />
+      <Text layoutX="207.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Pria " />
+      <TextArea layoutX="14.0" layoutY="190.0" prefHeight="200.0" prefWidth="200.0" text="Ciri - Ciri :&#10;-Rambut Putih &#10;-Tanda Lahir Pada Lengan Kanan&#10;-Tinggi Kisaran 170-175&#10;-Bola Mata Hitam&#10;-Sebagian Gigi Telah Tidak Ada&#10;&#10;Terkakhir Terlihat : Stasiun Halteu&#10;Memakai Topi Bercorak Militer&#10;Selalu Membawa tas Corak Navy" />
+   </children>
+</AnchorPane>

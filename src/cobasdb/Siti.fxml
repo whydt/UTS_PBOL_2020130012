@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="413.0" style="-fx-background-color: #add8e6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobasdb.SitiController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <ImageView fitHeight="160.0" fitWidth="156.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../src/femalevectornew.png" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="btn_sitiback" layoutX="347.0" layoutY="365.0" mnemonicParsing="false" onAction="#btn_sitibackButtonAction" text="Back?" />
+      <Text layoutX="207.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAMA : Siti Pratama Asih" />
+      <Text layoutX="207.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMUJR : 53" />
+      <Text layoutX="207.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER : Wanita" />
+      <TextArea layoutY="202.0" prefHeight="200.0" prefWidth="218.0" text="Ciri - Ciri :&#10;-Rambut Pendek  Berwarna Orange&#10;-Bola Mata Hitam&#10;-Tidak Memiliki Tanda Lahir&#10;-Tahi Lalat Pada Bahu Kiri&#10;-Tinggi Kisaran 155-165&#10;&#10;Terakhir Terlihat : Pukul 12 Siang&#10;Di Daerah Cijerah , Membawa Karung&#10;Berjalan Menggunakan Bantuan" />
+   </children>
+</AnchorPane>
